@@ -3315,10 +3315,6 @@ input, select, textarea {
 
 	}
 
-	/* Force smaller font size for all text */
-body, input, select, textarea, p, li, ul, ol, h1, h2, h3, h4, h5, h6 {
-    font-size: 10pt !important;
-}
 @media screen and (max-width: 980px) {
   #header {
     display: none !important;
