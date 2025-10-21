@@ -3323,3 +3323,14 @@ input, select, textarea {
     display: none !important;
   }
 }
+.button {
+    background-color: #49bf9d !important; /* This is the sidebar green */
+    border-color: #49bf9d !important;
+    color: #fff !important;
+}
+#previous_accomplishments .features .image img {
+    max-width: 120px;   /* or your preferred width */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
