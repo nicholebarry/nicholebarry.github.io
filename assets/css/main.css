@@ -3319,7 +3319,8 @@ input, select, textarea {
 body, input, select, textarea, p, li, ul, ol, h1, h2, h3, h4, h5, h6 {
     font-size: 10pt !important;
 }
-/* Hide the mobile/top bar with just the name */
-#header .logo, #header #logo {
+@media screen and (max-width: 980px) {
+  #header {
     display: none !important;
+  }
 }
