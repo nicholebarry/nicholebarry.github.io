@@ -3316,7 +3316,10 @@ input, select, textarea {
 	}
 @media screen and (max-width: 1024px) {
   #titleBar {
-    visibility: hidden !important;
-    pointer-events: none !important;
+    background: transparent !important;
+    color: transparent !important;
+  }
+  #titleBar .title {
+    display: none !important;
   }
 }
