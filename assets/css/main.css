@@ -3329,7 +3329,13 @@ input, select, textarea {
     color: #fff !important;
 }
 #previous_accomplishments .features .image img {
-    max-width: 120px;   /* or your preferred width */
+    max-width: 25vw;   /* or your preferred width */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+#current_research .features .image img {
+    max-width: 25vw;   /* or your preferred width */
     height: auto;
     display: block;
     margin: 0 auto;
