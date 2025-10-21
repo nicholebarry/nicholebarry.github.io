@@ -3314,6 +3314,8 @@ input, select, textarea {
 			}
 
 	}
-#titleBar {
-  display: none !important;
+@media screen and (max-width: 1024px) {
+  #titleBar {
+    display: none !important;
+  }
 }
